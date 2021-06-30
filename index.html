@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Visual Studio - Console</title></head>
+    <body>
+    <p>Visual studio is a software for writing code.</p>
+
+    <p>The console is used to see if any of your code is wrong, when you're code is wrong, it tells you where it is wrong.</p>
+    <p>Press Send, and right click the background, and click Inspect Element, and then go to console.</p>
+    <p id="consoletest">you should see the code of this paragraph in console when you click it!</p>
+</body>
+    
+    <button id="Send" onclick="Send();">Send</button>
+    <script>
+function Send() {
+var consoletestsendfrominput = document.getElementById("consoletest");
+console.log(consoletestsendfrominput);
+}
+    </script>
+</html>
